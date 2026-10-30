@@ -2,7 +2,7 @@
 
 > Como usar: rode `/4-implementar N` para cada tarefa, teste no navegador e faça commit.
 
-- [ ] 1. Criar o esqueleto jogável
+- [x] 1. Criar o esqueleto jogável
   - Criar `index.html`, `style.css`, `src/config.js` e `src/main.js`.
   - Definir o `CONFIG`, desenhar o Canvas centralizado e executar o loop com delta time.
   - Mostrar na tela inicial o nome do jogo e a instrução para pressionar Espaço.

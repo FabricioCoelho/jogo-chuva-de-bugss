@@ -1,0 +1,30 @@
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: #101820;
+}
+
+.game-shell {
+  display: grid;
+  place-items: center;
+}
+
+canvas {
+  max-width: calc(100vw - 32px);
+  max-height: calc(100vh - 32px);
+  border: 2px solid #4d5b66;
+  border-radius: 8px;
+  background: #18232d;
+  box-shadow: 0 16px 48px rgb(0 0 0 / 35%);
+}
