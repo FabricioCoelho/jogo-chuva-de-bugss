@@ -10,7 +10,7 @@
   - **Como verificar:** Abrir o jogo pelo servidor local → o Canvas aparece, centralizado, com o fundo escuro, o nome do jogo e “pressione Espaço para começar”.
   - _Requisitos: 1.1_
 
-- [ ] 2. Implementar controles e início da partida
+- [x] 2. Implementar controles e início da partida
   - Criar `src/input.js` e `src/game.js` para manter o estado das teclas inicializado.
   - Iniciar uma partida com 0 pontos, 3 vidas e 0 movimento do dev ao pressionar Espaço.
   - Permitir movimento horizontal com ←, →, A e D, sem sair dos limites do Canvas.
@@ -38,4 +38,4 @@
 
 ## Correções
 
-<vazio por enquanto; o comando /corrigir-bug escreve aqui>
+- [x] Bug: Espaço não iniciava a partida | Causa: tela inicial não registrava teclado nem chamava o estado inicial da partida | _Requisitos: 1.2_
