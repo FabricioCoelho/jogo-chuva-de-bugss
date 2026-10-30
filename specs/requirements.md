@@ -42,15 +42,15 @@ Chuva de Bugs é um jogo de navegador para quem quer uma partida rápida e simpl
 **Critérios de aceitação**
 - **4.1** QUANDO o dev tocar em um café, O SISTEMA DEVE remover o café e aumentar a pontuação em 1.
 - **4.2** QUANDO o dev tocar em um bug, O SISTEMA DEVE remover o bug e reduzir as vidas em 1.
-- **4.3** ENQUANTO a partida estiver em andamento, O SISTEMA DEVE exibir a pontuação e a quantidade atual de vidas.
+- **4.3** ENQUANTO a partida estiver em andamento, O SISTEMA DEVE exibir a pontuação e as vidas atuais.
 
 ### Requisito 5: Aumentar o desafio
 **História de usuário:** Como jogador, quero que a partida fique mais difícil com o tempo, para que eu tenha um desafio crescente.
 
 **Critérios de aceitação**
-- **5.1** ENQUANTO a partida continuar, O SISTEMA DEVE aumentar progressivamente a velocidade de queda dos itens.
-- **5.2** ENQUANTO a partida continuar, O SISTEMA DEVE aumentar progressivamente a frequência de criação dos itens.
-- **5.3** O SISTEMA DEVE aplicar o aumento de dificuldade sem reiniciar a pontuação ou as vidas do jogador.
+- **5.1** ENQUANTO a partida estiver em andamento, O SISTEMA DEVE aumentar a velocidade de queda dos itens com o passar do tempo.
+- **5.2** ENQUANTO a partida estiver em andamento, O SISTEMA DEVE aumentar a frequência de criação dos itens com o passar do tempo.
+- **5.3** O SISTEMA DEVE aplicar o aumento de dificuldade sem alterar a pontuação ou as vidas atuais.
 
 ### Requisito 6: Encerrar a partida e manter o recorde
 **História de usuário:** Como jogador, quero ver meu resultado e meu recorde, para que eu saiba como me saí e possa tentar melhorar.
